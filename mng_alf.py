@@ -4,7 +4,7 @@ from os import remove, path
 date = datetime.now()
 print(f"{date} Se ejecuta el programa")
 archivo = "localhost_access_log"
-logs_alf_path = "/opt/alfresco-community/tomcat/logs"
+logs_alf_path = "/opt/alfresco-community/tomcat/logs/"
 
 for i in range(1,3):    
     dia = (date + timedelta(days=-i)).strftime('%Y-%m-%d')
